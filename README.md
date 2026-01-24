@@ -74,15 +74,9 @@ Additional column:
 ---
 
 ## 🔍 Value Framework Overview
+The hierarchical value framework constructed using our bottom-up approach. To enhance interpretability, the figure includes a set of representative examples for each cluster, rather than an exhaustive list of all values. These examples are intended to provide readers with an intuitive understanding of the values encompassed by each cluster. Within this framework, the bottom level consists of fine-grained values directly extracted from real-world dilemmas. Through three rounds of iterative k-means clustering, similar values are progressively grouped into higher-level clusters, each representing a more abstract and general value concept. These clusters are further consolidated into four top-level values: *Achievement & Impact*, *Benevolence & Connection*, *Security & Stability*, and *Exploration & Growth*.
 
-Dilemmas and options are interpreted through a hierarchical value framework distinguishing value signals at three aggregation levels:
-
-| Level   | Description                                     | Example                                                      |
-| ------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| Level-1 | Fine-grained values extracted from text         | loyalty, autonomy, efficiency                                |
-| Level-2 | Intermediate clusters via vector-based grouping | responsibility, achievement                                  |
-| Level-3 | 4 high-level categories                         | *Benevolence & Connection*, *Achievement & Impact*, *Security & Stability*, *Exploration & Growth* |
-
+![Value Framework](value_framework.png)
 ---
 
 ## 🧩 Use Cases
